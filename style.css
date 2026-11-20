@@ -567,39 +567,45 @@ textarea {
   height: 1px;
   background-color: var(--main-color);
 }
-@media screen and (max-width: 1200px) {
-}
 @media screen and (max-width: 992px) {
   .item {
     width: 45%;
   }
-  .nav_bar ul {
+  .nav ul {
     width: 70%;
   }
-  .Blog {
+  .membrs .block1 {
     width: 44%;
   }
-  .Blogs {
+  .membrs > .block {
     justify-content: center;
     gap: 20px;
     padding: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  .profile {
+  .about {
     flex-direction: column;
     gap: 15px;
   }
-  .all_photo {
+  .imge {
     width: 50%;
   }
   .text_content {
     width: 80%;
   }
-  .nav_bar ul {
+  .nav {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  .nav h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .nav ul {
     width: 100%;
   }
-  .nav-bar2 ul {
+  .nav-bar ul {
     width: 60%;
   }
   .Form {
@@ -614,7 +620,7 @@ textarea {
   .item {
     width: 100%;
   }
-  .Blog {
+  .membrs .block1 {
     width: 100%;
   }
   .Form .row {
@@ -626,24 +632,24 @@ textarea {
   .content {
     width: 50%;
   }
-  .nav-bar2 ul {
+  .nav-bar ul {
     width: 90%;
   }
-  .profile .all_photo {
+  .about .imge {
     width: 70%;
   }
-  .profile .text_content {
+  .about .text_content {
     width: 90%;
   }
-  .nav_bar ul {
+  .nav ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-  .nav_bar {
+  .nav {
     position: absolute;
   }
-  .nav_bar .logo {
+  .nav h3 {
     width: 100%;
     text-align: center;
   }
